@@ -896,6 +896,49 @@ input, select, textarea {
 						}
 
 		}
+	
+	ul.partners {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		cursor: default;
+		list-style: none;
+		margin-left: -1rem;
+		padding-left: 0;
+	}
+
+	ul.partners li {
+			padding: 0 0 0 1rem;
+			vertical-align: middle;
+	}
+		
+	ul.partners img {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		cursor: default;
+		list-style: none;
+		margin-left: 0rem;
+		padding-left: 0;
+		width: 85%;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	
+		@media screen and (max-width: 480px) {
+
+			ul.partners img {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				margin-left: 0;
+				width: 100% !important;
+			}
+		}
 
 /* Icons */
 
