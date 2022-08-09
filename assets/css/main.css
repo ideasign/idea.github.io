@@ -24,6 +24,12 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+	
+iframe, iframe html, iframe html body	{
+	width: 100%;
+	height: 10rem;
+	scrolling: no;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
